@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node ./bin/www",
     "dev": "concurrently \"PORT=5000 nodemon\" \"cd client && yarn start\" ",
-    "heroku-postbuild": "cd client  && NPM_CONFIG_PRODUCTION=false npm install && npm run build" 
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client" 
   },
   "dependencies": {
     "concurrently": "^5.2.0",
