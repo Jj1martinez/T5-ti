@@ -1,0 +1,10 @@
+# POST http://localhost:3000/api/session/create
+# Content-Type: application/json
+
+# {
+#     "email": "admin@test.com",
+#     "password": "123321"
+# }
+
+# GET http://localhost:3000/admin/api/user
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiaWF0IjoxNTk0NTc5MjEwfQ.HXca66zH1VlABCpRIi_sJD0oeMoIwyYKmr62vY1X6rM

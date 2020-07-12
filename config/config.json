@@ -1,22 +1,22 @@
 {
   "development": {
-    "username": "username",
-    "password": "username",
-    "database": "db-dev",
+    "username": "postgres",
+    "password": "postgres",
+    "database": "db-express-react",
     "host": "127.0.0.1",
     "dialect": "postgres"
   },
   "test": {
-    "username": "username",
-    "password": "username",
-    "database": "db-test",
+    "username": "postgres",
+    "password": "postgres",
+    "database": "db-express-react",
     "host": "127.0.0.1",
     "dialect": "postgres"
   },
   "production": {
-    "username": "root",
-    "password": "dj@mw@r3",
-    "database": "node_sequelize",
+    "username": "postgres",
+    "password": "dj@postgres@r3",
+    "database": "db-express-react",
     "host": "127.0.0.1",
     "dialect": "postgres"
   }
